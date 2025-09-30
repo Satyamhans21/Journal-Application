@@ -21,5 +21,5 @@ public class JournalApplication {
         return new MongoTransactionManager(dbFactory);
     }
 
-
+        System.out.println("testing 1 merge conflicts");
 }
