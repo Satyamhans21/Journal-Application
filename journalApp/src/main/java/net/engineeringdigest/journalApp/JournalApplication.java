@@ -19,7 +19,9 @@ public class JournalApplication {
 @Bean
     public PlatformTransactionManager abc(MongoDatabaseFactory dbFactory){
         return new MongoTransactionManager(dbFactory);
+
     }
+    System.out.println("testing2");
 
 
 }
